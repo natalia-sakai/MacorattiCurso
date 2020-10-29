@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<br />
+@*USANDO VIEW COMPONENT*@
+@{
+    ViewData["Titulo"] = "Cidades";
+}
+@await Component.InvokeAsync("Lista", new { sequencia = "Santos,Campinas,Bauru" });
+
+<br />
+@*USANDO TAG HELPER*@
+@{
+    ViewData["Titulo"] = "Estados";
+}
+<vc:lista sequencia="SP,MG,RJ"></vc:lista>
+<br />
+
+
+

@@ -1,0 +1,35 @@
+@* A model deve ser especificada na view  usando a diretiva @model *@
+@*@model mvcVS.Models.Cliente*@
+
+@model mvcVS.ViewModels.ClientePedidoViewModel
+
+
+    <h1>Clientes</h1>
+    <hr>
+
+    @* uma vez que um model foi especificado a instancia pode ser tipada usando @Model *@
+    @Model.Cliente.ClienteId
+    <br>
+    @Model.Cliente.Nome
+    <br>
+    @Model.Cliente.Email
+
+    <hr />
+    <h1>Pedidos</h1>
+    <hr />
+
+    @if (Model.Pedidos.Count == 0)
+    {
+        <p>Nenhum pedido para o cliente</p>
+    }
+    else
+    {
+        <ul>
+            @foreach (var pedido in Model.Pedidos)
+            {
+                <li>@pedido.Nome</li>
+            }
+        </ul>
+    }
+
+

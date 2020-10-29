@@ -1,0 +1,44 @@
+﻿@model Mvc_Modelbinding.Models.Cliente
+
+<h1>Dados do Cliente</h1>
+<hr />
+@*
+        APRESENTAÇÃO NORMAL
+    Id:
+    <label for="Id">@Model.Id</label>
+    <br />
+    Nome:
+    <label for="Nome">@Model.Nome</label>
+    <br />
+    Email:
+    <label for="Email">@Model.Email</label>
+    <br />
+    <a href="/Cliente/Index">Retornar</a>
+*@
+
+@*
+        USANDO HTML HELPER
+    @Html.LabelFor(model => model.Id)
+    @Html.DisplayFor(model => model.Id)
+    <br />
+    @Html.LabelFor(model => model.Nome)
+    @Html.EditorFor(model => model.Nome)
+    <br />
+    @Html.LabelFor(model => model.Email)
+    @Html.DisplayFor(model => model.Email)
+    <br />
+    @Html.ActionLink("Retornar", "Index", "Cliente")
+*@
+
+
+@*USANDO TAG HELPER E HTML HELPER*@
+@Html.LabelFor(model => model.Id)
+<input asp-for="Id" />
+<br />
+@Html.LabelFor(model => model.Nome)
+<input asp-for="Nome" />
+<br />
+@Html.LabelFor(model => model.Email)
+<input asp-for="Email" />
+<br />
+@Html.ActionLink("Retornar", "Index", "Cliente")

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<br />
+<hr />
+@inject ViewInjection.Services.EstadosService estados
+@inject ViewInjection.Services.TimesService times
+
+<h3>Lista de Times</h3>
+<ul>
+    @foreach(var nome in times.GetTimes())
+    {
+        <li>@nome</li>
+    }
+</ul>
+<br />
+<hr />
+<h3>Lista de Estados</h3>
+Estados: @Html.DropDownList("Estado",
+    estados.GetEstados().Select(e => new SelectListItem()
+    {
+        Text = e.Nome,
+        Value = e.Sigla
+    }))

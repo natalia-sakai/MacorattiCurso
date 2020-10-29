@@ -1,0 +1,79 @@
+﻿@*View parcial do menu*@
+@Html.Partial("_MenuView")
+
+<h1>Cadastro de Cliente</h1>
+<hr />
+<!-- os nome nos input devem ser iguais ao da classe-->
+@*
+            FORM NORMAL
+    <form action="/Cliente/Index" method="post">
+    ID:
+    < input type = "text" name = "Id" />
+    < br />
+    Nome:
+    < input type = "text" name = "Nome" />
+    < br />
+    Email:
+    < input type = "text" name = "Email" />
+    < br />
+    < button type = "submit" > Salvar </ button >
+    </form>
+*@
+
+
+@{
+    var ListaPaises = new List<SelectListItem>
+{
+        new SelectListItem(){Value="1", Text="Brasil"},
+        new SelectListItem(){Value="2", Text="Chile"},
+        new SelectListItem(){Value="3", Text="Uruguai"},
+    };
+
+}
+
+@*
+    USANDO O TAG HELPER FICARIA
+    <form asp-controller="Cliente" asp-action="Index" method="post></form>
+*@
+
+
+@*USANDO O HTML HELPER*@
+@using (Html.BeginForm("Index", "Cliente", FormMethod.Post))
+{
+    @Html.Label("Id")
+    @Html.TextBox("Id")
+    <br />
+    @Html.Label("Nome")
+    @Html.TextBox("Nome")
+    <br />
+    @Html.Label("Email")
+    @Html.TextBox("Email")
+    <br />
+    @Html.Label("Senha")
+    @Html.Password("Senha")
+    <br />
+    @Html.Label("Masculino")
+    @Html.RadioButton("Sexo", "Masculino")
+    @Html.Label("Feminino")
+    @Html.RadioButton("Sexo", "Feminino")
+    <br />
+    @Html.Label("Pais")
+    @Html.DropDownList("Pais", ListaPaises)
+    <br />
+    @Html.Label("Lembrar")
+    @Html.CheckBox("Lembrar")
+    <br />
+    <button type="submit"> Salvar </button>
+}
+
+@{
+    @Html.Partial("_FooterView")
+}
+
+
+@* diferente de null pq na primeira passagem nao existe valor *@
+@if (ViewBag.Erro != null)
+{
+    <br />
+    <h2>@ViewBag.Erro</h2>
+}

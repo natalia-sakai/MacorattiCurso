@@ -1,0 +1,43 @@
+﻿@model IEnumerable<AreasDemo.Areas.Produtos.Models.Produto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Produtos</h1>
+</div>
+
+<p>
+    <a asp-action="Create"> Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Nome)
+                </td>
+                <td>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@Html.ActionLink("Home", "Index", "Home", new { area = "" }) |
+@Html.ActionLink("Produtos", "Index", "Produtos", new { area = "Produtos" }) |
+@Html.ActionLink("Informações", "Informacoes", "Admin", new { area = "Admin" })
