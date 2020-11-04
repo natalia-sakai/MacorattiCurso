@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Natalia\\Demo\\Demo\\Demo.csproj": {}
+    "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Demo\\Demo\\Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Natalia\\Demo\\Demo\\Demo.csproj": {
+    "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Demo\\Demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Natalia\\Demo\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Demo\\Demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "C:\\Users\\User\\Documents\\Natalia\\Demo\\Demo\\Demo.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Demo\\Demo\\Demo.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Natalia\\Demo\\Demo\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Demo\\Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

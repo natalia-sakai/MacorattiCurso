@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Mvc_EFCore.Models.Aluno>
+
+<h2>Informação de Aluno e taxa de descontos</h2>
+
+@if (!Model.Any())
+{
+    <p>Não existem dados cadastrados</p>
+}
+else
+{
+    <table class="table-bordered" border="1">
+        <thead>
+            <tr>Nome</tr>
+            <tr>Taxa de Desconto(%)</tr>
+        </thead>
+        <tbody>
+            @foreach(var aluno in Model)
+            {
+            <tr>
+                <td>@Html.DisplayFor(m => aluno.Nome)</td>
+                <td>@Html.DisplayFor(m => aluno.TipoSocio.TaxaDesconto)</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}

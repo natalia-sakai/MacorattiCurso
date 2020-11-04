@@ -7377,11 +7377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\Natalia\\Mvc_Modelbinding\\Mvc_Modelbinding\\Mvc_Modelbinding.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Mvc_Modelbinding\\Mvc_Modelbinding\\Mvc_Modelbinding.csproj",
       "projectName": "Mvc_Modelbinding",
-      "projectPath": "C:\\Users\\User\\Documents\\Natalia\\Mvc_Modelbinding\\Mvc_Modelbinding\\Mvc_Modelbinding.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Mvc_Modelbinding\\Mvc_Modelbinding\\Mvc_Modelbinding.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\Natalia\\Mvc_Modelbinding\\Mvc_Modelbinding\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\Mvc_Modelbinding\\Mvc_Modelbinding\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
