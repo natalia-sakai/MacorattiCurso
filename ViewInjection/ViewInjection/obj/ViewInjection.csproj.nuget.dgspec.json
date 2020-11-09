@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Natalia\\ViewInjection\\ViewInjection\\ViewInjection.csproj": {}
+    "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\ViewInjection\\ViewInjection\\ViewInjection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Natalia\\ViewInjection\\ViewInjection\\ViewInjection.csproj": {
+    "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\ViewInjection\\ViewInjection\\ViewInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Natalia\\ViewInjection\\ViewInjection\\ViewInjection.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\ViewInjection\\ViewInjection\\ViewInjection.csproj",
         "projectName": "ViewInjection",
-        "projectPath": "C:\\Users\\User\\Documents\\Natalia\\ViewInjection\\ViewInjection\\ViewInjection.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\ViewInjection\\ViewInjection\\ViewInjection.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Natalia\\ViewInjection\\ViewInjection\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\ViewInjection\\ViewInjection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

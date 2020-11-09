@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "suOzpbrE5HYCODSD40KjiBu1LX4MzrSL7VuVa9sZSrIVtjA3ybJzqoccSQb7i7B9FB+0p4gU7t6Y9CYefMciLQ==",
+  "dgSpecHash": "5csekFFTzQ0bDX53w0UYPF4mpw27vzO49WksuKRiitAsM2ASOCdjmqOxvL5jCeSgTcBWOZI3+qjI8Lyon+pl5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\Natalia\\ViewInjection\\ViewInjection\\ViewInjection.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\Natalia\\ASPNetCore\\ViewInjection\\ViewInjection\\ViewInjection.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

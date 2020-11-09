@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\bin\Debug\netstandard2.0\ArtistasDAL.deps.json
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\bin\Debug\netstandard2.0\ArtistasDAL.dll
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\obj\Debug\netstandard2.0\ArtistasDAL.csprojAssemblyReference.cache
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\obj\Debug\netstandard2.0\ArtistasDAL.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\obj\Debug\netstandard2.0\ArtistasDAL.AssemblyInfo.cs
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\bin\Debug\netstandard2.0\ArtistasDAL.pdb
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\obj\Debug\netstandard2.0\ArtistasDAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\obj\Debug\netstandard2.0\ArtistasDAL.dll
+C:\Users\User\Documents\Natalia\ASPNetCore\Artistas\ArtistasDAL\obj\Debug\netstandard2.0\ArtistasDAL.pdb

@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=ASPNet_Curso;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
